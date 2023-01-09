@@ -1,0 +1,23 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    background: #03080f;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+:root {
+    --blank-background: #03080f;
+    --main-background: #081221;
+    --sub-background: #0e1a2b;
+    --text-color: #c1d1e8;
+    --text-white: #fff;
+    --input-background: #182c47;
+    --button-background: #5692e8;
+    --header-height: 12.5rem;
+    --left-body-w: 18.75rem;
+    --right-body-w: calc(100% - 18.75rem);
+    --body-height: calc(100% - 12.5rem);
+    --content-width: 80rem;
+    --font-weight-bold: bold;
+}

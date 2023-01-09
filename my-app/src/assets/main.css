@@ -1,0 +1,59 @@
+@import "ant-design-vue/dist/antd.css";
+@import "./global.css";
+@import './base.css';
+
+#app {
+    min-height: 100vh;
+}
+
+.app-body {
+    margin: auto;
+    max-width: 80rem;
+}
+
+.home_body {
+    height: 100vh;
+    background: linear-gradient(
+            to right,
+            var(--main-background) 30%,
+            var(--blank-background) 70%
+    );
+}
+
+.content_body {
+    margin: auto;
+    max-width: var(--content-width);
+    min-height: var(--body-height);
+    display: flex;
+}
+
+/*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* 重置 antd 框架样式
+* Reset the antd frame style
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*/
+input,textarea,
+.ant-select:not(.ant-select-customize-input) .ant-select-selector,
+.ant-select-item-option-active:not(.ant-select-item-option-disabled),
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled),
+.ant-select-item,
+.ant-select-dropdown {
+    background: var(--input-background) !important;
+    border: 1px solid var(--input-background) !important;
+    color: var(--text-color) !important;
+}
+
+.ant-select-item:hover {
+    color: #ffffff !important;
+}
+
+.ant-list-empty-text,
+.ant-empty-normal,
+.ant-list-item,
+.ant-list-item-meta-content,
+.ant-list-item-meta-title,
+.ant-list-item-meta-title > a,
+.ant-list-item-meta-description {
+    color: var(--text-color);
+}
